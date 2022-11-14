@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{background-size: cover;
+  background-image: url('background.jpg');}
+
+.container{
+  background-color: rgba(0, 0, 0, 0.43);
+  width: 63%;
+  margin: 20px auto 60px;
+  border-radius: 2%;
+  padding: 70px 70px;
+}
+
+header{
+  text-align: center;
+}
+
+h1{
+  color: #00DD00;
+  font-family: 'Nunito', sans-serif;
+  font-size: 23px;
+}
+
+header img{
+  width: 25%;
+}
+
+nav{
+  background-color: #00DD00;
+  padding: 6.5px;
+}
+
+nav button{
+  font-size: 10px;
+}
+
+main{
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+section{
+  padding-top: 16px;
+}
+
+h2{
+  font-size: 17px;
+}
+
+h2::before{
+  content:"\25A0   ";
+}
+
+.indirizzo::before{
+  content:"\21A6   ";
+}
+
+p{
+  font-size: 12px;
+}
+
+section div{
+  height: 23px;
+  border-radius: 4px;
+}
+
+#orange{
+  background-color: #F5B453;
+  width: 285px;
+}
+
+#green{
+  background-color: #1EC31E;
+  width: 455px;
+}
+
+#red{
+  background-color: #BE4141;
+  width: 110px;
+}
